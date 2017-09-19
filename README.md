@@ -12,7 +12,7 @@ After:
 `<link rel="stylesheet" type="text/css" href="https://www.example.com/js/example.css?t1505808146" />`
 
 # Change timestamp
-To force timestamp change, go to System -> Cache Management -> click on "Flush Browser Cached CSS/JS"
+To force timestamp change, go to System -> Cache Management -> click on "Flush Browser Cached CSS/JS" and then "Flush Cache Storage"
 
 Now timestamp will be updated and the customers will see newest css/js changes!
 
