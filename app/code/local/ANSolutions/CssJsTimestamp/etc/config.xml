@@ -1,0 +1,45 @@
+<?xml version="1.0"?>
+<config>
+    <modules>
+        <ANSolutions_CssJsTimestamp>
+            <version>0.1.0</version>
+        </ANSolutions_CssJsTimestamp>
+    </modules>
+    <global>
+        <helpers>
+            <ansolutions_cssjstimestamp>
+                <class>ANSolutions_CssJsTimestamp_Helper</class>
+            </ansolutions_cssjstimestamp>
+        </helpers>
+        <blocks>
+            <page>
+                <rewrite>
+                    <html_head>ANSolutions_CssJsTimestamp_Block_Page_Html_Head</html_head>
+                </rewrite>
+            </page>
+            <adminhtml>
+                <rewrite>
+                    <cache>ANSolutions_CssJsTimestamp_Block_Adminhtml_Cache</cache>
+                </rewrite>
+            </adminhtml>
+        </blocks>
+    </global>
+    <admin>
+        <routers>
+            <adminhtml>
+                <args>
+                    <modules>
+                        <ANSolutions_CssJsTimestamp before="Mage_Adminhtml">ANSolutions_CssJsTimestamp_Adminhtml</ANSolutions_CssJsTimestamp>
+                    </modules>
+                </args>
+            </adminhtml>
+        </routers>
+    </admin>
+    <default>
+        <ansolutions>
+            <cssjsversioning>
+                <timestamp>0</timestamp>
+            </cssjsversioning>
+        </ansolutions>
+    </default>
+</config>
