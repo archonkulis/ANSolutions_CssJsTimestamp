@@ -17,5 +17,5 @@ To force timestamp change, go to System -> Cache Management -> click on "Flush B
 Now timestamp will be updated and the customers will see newest css/js changes!
 
 
-Inspired by https://github.com/mklooss/Loewenstark_Head/
+Inspired by https://github.com/mklooss/Loewenstark_Head/ ( the difference in this extension and Loewenstark is that my extension adds timestamp automatically when clearing cache, but in Loewenstark extension you have to manually write timestamp in the configs every time, which I found is not very convinient )
 
